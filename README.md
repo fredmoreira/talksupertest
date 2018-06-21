@@ -1,6 +1,6 @@
-# talksupertest
+# API Testing Talk
 
-Base repository for talk about API testing and Contract Test using Supertest and Joi
+Base repository for talk about API and Contract Testing using Supertest and Joi
 
 API Example on test - https://github.com/fredmoreira/phone-book
 
