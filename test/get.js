@@ -6,6 +6,7 @@ const url = 'http://localhost:5000';
 describe('Test GET API PhoneBook', () => {
 
   describe('GET Contact', () => {
+    
     it('test contacts', (done) => {
       request(url)
       .get('/contacts/')
@@ -39,6 +40,5 @@ describe('Test GET API PhoneBook', () => {
         done()
       })
     });
-
   });
 });
