@@ -4,7 +4,8 @@
   "description": "Simple API Testing Project",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec --recursive"
+    "test": "mocha -R spec --recursive",
+    "test-contract": "mocha test/contacts_contract.js"
   },
   "repository": {
     "type": "git",
