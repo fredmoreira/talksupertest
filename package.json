@@ -1,0 +1,31 @@
+{
+  "name": "talksupertest",
+  "version": "1.0.0",
+  "description": "Simple API Testing Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredmoreira/talksupertest.git"
+  },
+  "keywords": [
+    "API",
+    "Test",
+    "Testing",
+    "QA"
+  ],
+  "author": "Frederico Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredmoreira/talksupertest/issues"
+  },
+  "homepage": "https://github.com/fredmoreira/talksupertest#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "joi": "^13.4.0",
+    "joi-assert": "0.0.3",
+    "supertest": "^3.1.0"
+  }
+}
